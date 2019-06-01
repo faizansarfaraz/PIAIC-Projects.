@@ -1,0 +1,30 @@
+print("Marksheet")
+print("---------")
+student_name="Tony Stark"
+classs=11
+college="ADAMJEE GOVT SCIENCE COLLEGE"
+print()
+print("Student Name:" , student_name)
+print("CLass:", classs)
+print("College:", college)
+print()
+print("*=================================*")
+print()
+maths=93
+phy=85
+chem=79
+eng=80
+urdu=65
+islam=36
+sum=maths+phy+chem+eng+urdu+islam
+if sum >=440:
+    grade="A+"
+elif sum >=358:
+    grade="A"
+elif sum >=275:
+    grade="B"
+elif sum >=220:
+    grade="c"
+else:
+    grade="F"
+print("Grade:", grade)
