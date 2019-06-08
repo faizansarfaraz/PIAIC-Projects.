@@ -1,0 +1,6 @@
+print("Volume of a sphere of given radius")
+print("----------------------------------")
+radius = int(input("Enter radius of sphere:"))
+volume = ((4/3)*3.142)*(radius**3)
+print()
+print("Volume of sphere of radius", radius, "is", volume)
